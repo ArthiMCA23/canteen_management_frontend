@@ -1,0 +1,61 @@
+.Hungry-container{
+    background-color: wheat;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.hungry-head{
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:900;
+    color: rgb(255, 38, 0);
+}
+.hungry-para{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    line-height: 40px;
+}
+.pizza{
+    color: rgb(255, 98, 0);
+    animation: mypizza 5s infinite;
+    padding-left: 30px;
+    font-size: 100px;
+}
+
+@keyframes mypizza{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width:768px){
+    .hungry-para{
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 15px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .hungry-head{
+        font-size: 25px;
+        font-weight:900;
+        color: rgb(255, 38, 0);
+    }
+    .pizza{
+        padding-left: 0px;
+        font-size: 50px;
+    }
+    .Hungry-container{
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,146 @@
+/* Container for the entire order section */
+.order-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  /* Title for the orders */
+  .order-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  /* Style for the message when no orders are found */
+  .no-orders {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding: 20px;
+  }
+  
+  /* Card for each order */
+  .order-card {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .order-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header for the order card */
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+  }
+  
+  .order-id {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-status {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: darkmagenta;
+  }
+  
+  /* .order-status.pending {
+    background-color: #ff9800; 
+  }
+  
+  .order-status.completed {
+    background-color: #4caf50; 
+  }
+  
+  .order-status.cancelled {
+    background-color: #f44336; 
+  } */
+  
+  /* Order details section */
+  .order-details {
+    margin-top: 20px;
+  }
+  
+  /* Price and other order info */
+  .order-total-price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .order-items {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .order-item {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #555;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price,
+  .item-quantity {
+    color: #888;
+    margin-left: 8px;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .order-container {
+      padding: 15px;
+    }
+  
+    .order-title {
+      font-size: 26px;
+    }
+  
+    .order-card {
+      padding: 20px;
+    }
+  
+    .order-id {
+      font-size: 18px;
+    }
+  
+    .order-status {
+      font-size: 14px;
+      padding: 4px 8px;
+    }
+  
+    .order-total-price {
+      font-size: 16px;
+    }
+  
+    .order-item {
+      font-size: 14px;
+    }
+  }
+  

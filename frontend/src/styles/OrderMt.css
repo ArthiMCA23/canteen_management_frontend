@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2d3e50;
+    margin: 20px 0;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    color: #2d3e50;
+  }
+  
+  th {
+    background-color: #2d3e50;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th,
+    td {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin: 15px 0;
+    }
+  
+    /* Make the table scrollable horizontally on small screens */
+    .table-container {
+      overflow-x: auto;
+    }
+  
+    button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  

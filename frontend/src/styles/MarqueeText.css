@@ -1,0 +1,12 @@
+.text{
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+@media (max-width:768px) {
+    .text{
+        height: 40px;
+        font-size: 13px;
+    }
+}

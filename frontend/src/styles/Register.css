@@ -1,0 +1,115 @@
+/* Register.css */
+
+/* Background styling */
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Soft background for simplicity */
+    background:linear-gradient(to bottom,rgb(204, 22, 164),rgb(167, 199, 231));
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: #ddd;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+    border-left: 4px solid #6811cb; /* Subtle accent color */
+}
+
+/* Form heading */
+.form-head {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #6a11cb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Form input fields */
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.6rem 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 2rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background: #f9f9f9;
+}
+
+.form-input:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.3);
+    outline: none;
+}
+
+/* Submit button */
+.form-btn {
+    background:linear-gradient(to bottom,rgb(204, 22, 164),rgb(75, 143, 211));
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+.form-btn:hover {
+    background-color: #50189e;
+    transform: scale(1.02);
+}
+
+/* Error message styling */
+p[style*="color: red"] {
+    color: #d9534f;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* Link styling */
+.form-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.form-link a {
+    text-decoration: none;
+    color: #6a11cb;
+    font-weight: bold;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+.form-link a:hover {
+    color: #50189e;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .form-head {
+        font-size: 1.6rem;
+    }
+}

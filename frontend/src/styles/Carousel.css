@@ -1,0 +1,103 @@
+.img{
+    display: block;
+    width: 100%;
+    height: 650px;
+}
+.head{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 202, 57);
+}
+.para{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.container-div{ 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.carousel-div{
+    position: relative;
+}
+/* .overlay{
+    position: absolute;
+  z-index: 10;
+  top: 10px;
+  left: 50%;
+} */
+.overlayText{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    color: burlywood;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.overlayButton{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 89%;
+    background-color:burlywood;
+    padding: 10px;
+    width: 100px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.overlayRegister{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 45%;
+    background-color: lightgreen;
+    padding: 15px;
+    width: 180px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.overlayRegister:hover{
+    box-shadow: 5px 1px 5px green;
+}
+.overlayButton:hover{
+    box-shadow: 5px 1px 5px rgb(225, 148, 46);
+}
+@media (max-width:768px) {
+    .img{
+        height: 500px;
+    }
+    .head{
+       font-size: 18px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .overlayButton{
+        left: 75%;
+        padding: 5px;
+        width: 80px;
+    }
+    .overlayRegister{
+        top: 50%;
+        left: 40%;
+        background-color: lightgreen;
+        padding: 15px;
+        width: 150px;
+    }
+}
+@media (max-width:500px) {
+    .overlayRegister{
+        top: 50%;
+        left: 30%;
+        background-color: lightgreen;
+        padding: 10px;
+        width: 150px;
+    }
+    .overlayText{
+        font-size: 18px;
+    }
+    
+}

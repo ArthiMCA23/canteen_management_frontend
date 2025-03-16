@@ -1,0 +1,30 @@
+.image-canteen{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+.abt-container{
+    padding-bottom: 50px;
+}
+.abt-head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.abt-para{
+    text-align: justify;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abt-col{
+    padding: 30px;
+}
+
+@media (max-width:768px) {
+    .image-canteen{
+        height: 300px;
+        width: 340px;
+    }
+    .abt-para{
+        font-size: 14px;
+    }
+}
