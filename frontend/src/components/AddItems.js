@@ -15,7 +15,7 @@ function AddItem() {
 
     useEffect(()=>{
         if(id){
-            fetch(`http://localhost:8000/item/updateitem/${id}`)
+            fetch(`https://canteen-managent-backend.onrender.com/item/updateitem/${id}`)
             .then(res=>res.json())
             .then((res)=>{
                 console.log(res)
